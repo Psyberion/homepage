@@ -1,0 +1,56 @@
+/*
+ * theme.css
+ * This file contains the CSS defining colours and other theme-specific
+ * attributes for the site.
+ */
+
+/*
+ * CSS for the body
+ */
+body{
+	font-size:20px;
+	background:white;
+}
+
+/*
+ * CSS for links, visited links and active links
+ */
+a,
+a:visited,
+a:active{
+	text-decoration:none;
+	color:blue;
+	background:lightgrey;
+}
+
+/*
+ * CSS for the search field on the page
+ */
+#container input[type="text"]{
+	background:lightgrey;
+	color:black;
+	width:300px;
+	padding:5px;
+	border:none;
+}
+
+/*
+ * CSS for the link field titles
+ * Setting a background colour here is unnecessary, as it will be
+ * overwritten by `parse.js` anyway
+ */
+#container .block .header{
+	font-style:italic;
+	font-weight:bold;
+	color:black;
+}
+
+/*
+ * CSS for the home page heading
+ */
+#container h1{
+	font-size:35px;
+	font-weight:bold;
+	font-family:calibri;
+	color:black;
+}
